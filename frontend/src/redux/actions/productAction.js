@@ -9,7 +9,7 @@ export const listProducts = () => async (dispatch) => {
 
 		const { data } = await axios.get('https://smartsmith-backend.vercel.app/api/products');
 
-		// console.log('data>>>>>', data);
+		console.log('data>>>>>', data);
 
 		dispatch({
 			type: PRODUCT_TYPES.PRODUCT_LIST_SUCCESS,
