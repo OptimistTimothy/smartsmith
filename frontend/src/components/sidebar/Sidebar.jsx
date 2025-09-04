@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Facebook, Twitter, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Overlay from '../Overlay';
-import {FaCartPlus, FaUser} from 'react-icons/fa'
+import { FaCartPlus, FaUser } from 'react-icons/fa';
 
 const HeaderSidebar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -51,37 +51,33 @@ const HeaderSidebar = () => {
 						</Link>
 					</Styles.HeaderLogo> */}
 					<Styles.HeaderDropdownWrapperMobile>
-                    <Link>
-                      <FaCartPlus />
-                    </Link>
-                    <Link>
-                      <FaUser />
-                    </Link>
-                  </Styles.HeaderDropdownWrapperMobile>
+						<Link>
+							<FaCartPlus />
+						</Link>
+						<Link>
+							<FaUser />
+						</Link>
+					</Styles.HeaderDropdownWrapperMobile>
 
 					<Styles.SidebarNav>
-						<Link to='/home_fragrances'>Home Fragrances</Link>
-						<Link to='/car_fragrances'>Car Fragrances</Link>
-						<Link to='/perfumes'>Perfume</Link>
-          </Styles.SidebarNav>
-
-         
+						<Link to='/'>Home Fragrances</Link>
+						<Link to='/'>Car Fragrances</Link>
+						<Link to='/'>Perfume</Link>
+						<Link to='/contact'>Contact</Link>
+					</Styles.SidebarNav>
 
 					<Styles.InfoWrapper>
 						<Styles.InfoList>
 							<h4>📍 Head Office:</h4>
-							<p>
-								Plot 20B Close United Estate <br /> Alagbole, Ogun State
-							</p>
+							<p>adenugatemitop52@gmail.com</p>
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>📞 Phone:</h4>
-							<p>+2348023169986</p>
-							<p>+2348162073680</p>
+							<p>+2349055201988</p>
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>📧 Email:</h4>
-							<p>[Insert phone number here]</p>
+							<p>adenugatemitop52@gmail.com</p>
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>🕒 Office Hours:</h4>

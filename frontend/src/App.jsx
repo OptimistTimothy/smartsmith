@@ -10,6 +10,7 @@ import Shipping from './pages/shipping/Shipping';
 import Payment from './pages/payment/Payment';
 import PlaceOrder from './pages/placeOrder/PlaceOrder';
 import Order from './pages/order/Order';
+import Contact from './pages/contact/Contact';
 
 const App = () => {
 	return (
@@ -26,6 +27,7 @@ const App = () => {
 					<Route path='/payment' element={<Payment />} />
 					<Route path='/placeorder' element={<PlaceOrder />} />
 					<Route path='/order/:id' element={<Order />} />
+					<Route path='/contact' element={<Contact />} />
 				</Route>
 			</Routes>
 		</>

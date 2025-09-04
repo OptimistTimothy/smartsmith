@@ -109,4 +109,20 @@ export const GlobalStyles = createGlobalStyle`
   flex: 0 0 100%;
   min-width: 0;
 }
+
+.div {
+  background-image: linear-gradient(to right top, #ff7300, #ff5f5d, #ff639b, #ed7acb, #bf92e6, #9fa4f5, #80b3fb, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.div1 {
+  background-image: linear-gradient(to right bottom, #ff7300, #fd7c2b, #fb8444, #f78d59, #f1966d, #ef9872, #ee9a77, #ec9c7c, #f09875, #f4936d, #f78f66, #fb8a5f);
+}
+
+.div3 {
+  background-image: linear-gradient(to right bottom, #ff7300, #b68800, #738b0b, #398440, #00765e);
+}
+
+.div4 {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
 `;

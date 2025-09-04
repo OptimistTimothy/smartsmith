@@ -32,9 +32,10 @@ const DesktopHeader = () => {
 					</Link>
 				</Styles.HeaderLogo>
 				<Styles.HeaderNavWrapper>
-					<Link to='/home_fragrances'>Home Fragrances</Link>
-					<Link to='/car_fragrances'>Car Fragrances</Link>
-					<Link to='/perfumes'>Perfume</Link>
+					<Link to='/'>Home Fragrances</Link>
+					<Link to='/'>Car Fragrances</Link>
+					<Link to='/'>Perfume</Link>
+					<Link to='/contact'>Contact</Link>
 				</Styles.HeaderNavWrapper>
 
 				<Styles.HeaderDropdownWrapper>

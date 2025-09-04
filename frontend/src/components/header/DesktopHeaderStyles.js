@@ -74,7 +74,7 @@ export const HeaderNavWrapper = styled.nav`
 
 
 
-	 @media screen and (max-width: 900px) {
+	 @media screen and (max-width: 990px) {
 		display: none;
 	}
 `;
@@ -89,7 +89,7 @@ export const HeaderDropdownWrapper = styled.div`
 		color: #fff;
 	}
 
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 990px) {
 		margin-right: 100px;
 		display: none;
 	}
@@ -105,7 +105,7 @@ export const HeaderDropdownWrapperMobile = styled.div`
 	}
 
 	display: none;
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 990px) {
 		margin-right: 70px;
 		display: flex;
 	}
@@ -118,7 +118,7 @@ export const HeaderSidebarContainer = styled.div`
 	top: 20px;
 	display: none;
 
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 990px) {
 		display: block;
 	}
 `;

@@ -32,9 +32,7 @@ const Home = () => {
 					<Row>
 						{products?.map((product, i) => (
 							<Col sm={12} md={6} xl={4} key={i}>
-								<FadeInAlways delay={(0.1 * i) + 1} direction='left'>
-									<Products product={product} />
-								</FadeInAlways>
+								<Products product={product} />
 							</Col>
 						))}
 					</Row>
