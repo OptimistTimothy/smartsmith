@@ -7,7 +7,7 @@ export const listProducts = () => async (dispatch) => {
 			type: PRODUCT_TYPES.PRODUCT_LIST_REQUEST,
 		});
 
-		const { data } = await axios.get('http://localhost:5000/api/products');
+		const { data } = await axios.get('https://smartsmith-backend.vercel.app/api/products');
 
 		// console.log('data>>>>>', data);
 
@@ -34,7 +34,7 @@ export const listProductDetails = (id) => async (dispatch) => {
 		});
 
 		const { data } = await axios.get(
-			`http://localhost:5000/api/products/${id}`,
+			`https://smartsmith-backend.vercel.app/api/products/${id}`,
 		);
 
 		// console.log('datails data>>>>>', data);

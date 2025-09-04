@@ -1,7 +1,7 @@
 import { USER_TYPES } from '../types';
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api/auth' });
+const API = axios.create({ baseURL: 'https://smartsmith-backend.vercel.app/api/auth' });
 
 API.interceptors.request.use((req) => {
 	if (localStorage.getItem('jwt')) {
@@ -24,7 +24,7 @@ export const login = (email, password) => async (dispatch) => {
 		};
 
 		const { data } = await axios.post(
-			'http://localhost:5000/api/auth/login',
+			'https://smartsmith-backend.vercel.app/api/auth/login',
 			{ email, password },
 			config,
 		);
@@ -67,7 +67,7 @@ export const register = (name, email, password) => async (dispatch) => {
 		};
 
 		const { data } = await axios.post(
-			'http://localhost:5000/api/auth/register',
+			'https://smartsmith-backend.vercel.app/api/auth/register',
 			{ name, email, password },
 			config,
 		);

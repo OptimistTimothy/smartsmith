@@ -2,7 +2,9 @@ import axios from 'axios';
 import { CART_TYPES } from '../types';
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
-	const { data } = await axios.get(`http://localhost:5000/api/products/${id}`);
+	const { data } = await axios.get(
+		`https://smartsmith-backend.vercel.app/api/products/${id}`,
+	);
 
 	dispatch({
 		type: CART_TYPES.CART_ADD_ITEM,
