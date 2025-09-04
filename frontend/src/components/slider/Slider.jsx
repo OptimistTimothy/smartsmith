@@ -47,7 +47,7 @@ const Slider = () => {
 											<FadeInAlways delay={0.2} direction='down'>
 													<h3>{product.name}</h3>
 													<p>{product.description}</p>
-													<button to={`/product/${product._id}`}>Show now</button>
+													<button to={`/product/${product._id}`}>Buy now</button>
 											</FadeInAlways>
 												</Link>
 										</Styles.SliderContent>
