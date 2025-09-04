@@ -7,7 +7,6 @@ import CheckoutSteps from '../../components/CheckoutSteps';
 import { getOrderDetails, payOrder } from '../../redux/actions/orderActions';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { PayPalButton } from 'react-paypal-button-v2';
 import { ORDER_TYPES } from '../../redux/types';
 
 import { findDOMNode } from 'react-dom';
@@ -46,9 +45,8 @@ const Order = () => {
 			// findDOMNode(this);
 		};
 
-
 		if (!order || successPay) {
-			dispatch({type: ORDER_TYPES.ORDER_PAY_RESET})
+			dispatch({ type: ORDER_TYPES.ORDER_PAY_RESET });
 			dispatch(getOrderDetails(id));
 		} else if (!order.isPaid) {
 			if (!window.paypal) {
@@ -61,9 +59,8 @@ const Order = () => {
 
 	const successPaymentHandler = (paymentResult) => {
 		console.log(paymentResult);
-		dispatch(payOrder(id, paymentResult))
-
-	}
+		dispatch(payOrder(id, paymentResult));
+	};
 
 	return loading ? (
 		<Loader />
@@ -176,22 +173,6 @@ const Order = () => {
 									<Col>${order?.totalPrice}</Col>
 								</Row>
 							</ListGroup.Item>
-							{!order.isPaid && (
-								<ListGroup.Item>
-									{loadingPay && <Loader />}
-									{!sdkReady ? (
-										<Loader />
-									) : (
-										<>
-											{findDOMNode(this)}
-											<PayPalButton
-												amount={order.totalPrice}
-												onSuccess={successPaymentHandler}
-											/>
-										</>
-									)}
-								</ListGroup.Item>
-							)}
 						</ListGroup>
 					</Card>
 				</Col>
