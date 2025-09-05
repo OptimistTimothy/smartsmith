@@ -41,7 +41,7 @@ const Contact = () => {
 			<Styles.ContactHero>
 				<h1>Get In Touch With Us</h1>
 				<p>
-					At SmartSmith, we believe that strong partnerships begin with open
+					At scentsmith, we believe that strong partnerships begin with open
 					communication. Whether you are seeking expert consultation, requesting
 					a service, or simply exploring how we can support your operations, our
 					team is ready to assist you.
@@ -83,7 +83,7 @@ const Contact = () => {
 					<h2>Get in Touch</h2>
 					<Styles.ContactInfoList>
 						<h4>📍 Head Office:</h4>
-						<p>adenugatemitop52@gmail.com</p>
+						<p>Lagos, Nigeria</p>
 					</Styles.ContactInfoList>
 					<Styles.ContactInfoList>
 						<h4>📞 Phone:</h4>

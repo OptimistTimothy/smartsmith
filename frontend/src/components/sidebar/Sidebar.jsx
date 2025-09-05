@@ -45,7 +45,7 @@ const HeaderSidebar = () => {
 					{/* <Styles.HeaderLogo>
 						<Link to='/'>
 							<h1>
-								smartsmith <br />
+								scentsmith <br />
 								<span>bytenii</span>
 							</h1>
 						</Link>
@@ -69,7 +69,7 @@ const HeaderSidebar = () => {
 					<Styles.InfoWrapper>
 						<Styles.InfoList>
 							<h4>📍 Head Office:</h4>
-							<p>adenugatemitop52@gmail.com</p>
+							<p>Lagos, Nigeria</p>
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>📞 Phone:</h4>
