@@ -77,7 +77,7 @@ const HeaderSidebar = () => {
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>📧 Email:</h4>
-							<p>adenugatemitop52@gmail.com</p>
+							<p>adenugatemitope52@gmail.com</p>
 						</Styles.InfoList>
 						<Styles.InfoList>
 							<h4>🕒 Office Hours:</h4>

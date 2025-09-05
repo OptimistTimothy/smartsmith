@@ -27,7 +27,7 @@ const DesktopHeader = () => {
 					<Link to='/'>
 						<h1>
 							scentsmith <br />
-							<span>bytenii</span>
+							<span>byteniii</span>
 						</h1>
 					</Link>
 				</Styles.HeaderLogo>

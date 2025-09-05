@@ -91,7 +91,7 @@ const Contact = () => {
 					</Styles.ContactInfoList>
 					<Styles.ContactInfoList>
 						<h4>📧 Email:</h4>
-						<p>adenugatemitop52@gmail.com</p>
+						<p>adenugatemitope52@gmail.com</p>
 					</Styles.ContactInfoList>
 					<Styles.ContactInfoList>
 						<h4>🕒 Office Hours:</h4>
